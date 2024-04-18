@@ -22,8 +22,7 @@ const TabIcon = ({icon, color, name, focused}) => {
 const TabsLayout = () => {
   return (
     <>
-    <Tabs 
-        className="bg-red-400"
+    <Tabs
         screenOptions={{
             tabBarShowLabel: false,
             tabBarActiveTintColor: '#FFA001',
